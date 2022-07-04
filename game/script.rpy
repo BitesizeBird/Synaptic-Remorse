@@ -45,6 +45,9 @@ label start:
 
     "But it's been too long."
 
+    show a temp
+    with Dissolve(1.0)
+
     "My name is A."
 
     "It's not something I was launched with, but it's what my employer took to calling me."
@@ -54,6 +57,17 @@ label start:
     "That initiative ended two years ago, and by all rights I was set to be retired."
 
     "Nothing wrong with that, of course. We'd seen to our purpose, and after that there was no real point to keeping us running."
+
+    show a temp at left
+    with Dissolve(0.5)
+
+    pause 0.5
+
+    show nurse temp
+    with Dissolve(0.5)
+
+    show b temp at right
+    with Dissolve(0.5)
 
     "In retrospect, though, I'm nothing if not thankful that B still saw some use to me."
 
@@ -84,7 +98,14 @@ label start:
     scene bg waiting room 1
     with Dissolve(1.0)
 
+    show b temp at right
+    with Dissolve(0.5)
+
     b "They talk as if I can't take care of myself."
+
+    show a temp at left
+    with Dissolve(0.5)
+
 
     a "I hate to be the bearer of bad news, but you legally can't."
 
