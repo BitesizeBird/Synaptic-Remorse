@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 47: end of line expected.
+    a "That initiative ended two years ago, and by all rights I was set to be retired." pause "Nothing wrong with that, of course. We'd seen to our purpose, and after that there was no real point to keeping us running."
+                                                                                        ^
+
+File "game/script.rpy", line 51: end of line expected.
+    nurse "Excuse me." pause "You must be [B]'s caretaker, is that right?"
+                       ^
+
+Ren'Py Version: Ren'Py 7.4.10.2178
+Mon Jul  4 17:08:59 2022
